@@ -1,0 +1,145 @@
+/* Цвет основного текста background: #757575; */
+/* Вторичный цвет текста background: background: #212121; */
+/* акцент background: #2196F3; */
+/* основной цвет фона background: #FFFFFF; */
+/* вторичный цвет фона footer main  background: #2F303A; */
+/* третичный цвет фона background: #F5F4FA; */
+
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+
+/* header */
+
+/* Logo */
+
+.nav-logo {
+    color:  #000000;
+}
+
+.nav-logo .logo {
+    color: #2196F3;
+}
+
+/* Navigation */
+.site-nav li {
+    list-style: none;
+}
+.site-nav .link {
+    color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* Contacts */
+
+.site-cont li {
+    list-style: none;
+}
+
+.site-cont a {
+    color: #757575;
+}
+
+.site-cont .link:hover,
+.site-cont .link:focus {
+    color: #2196F3;
+}
+
+/* Main index.html */
+
+/* Шапка */
+
+.hero {
+    background-color: #2F303A;;
+}
+.hero-title {
+    color: #ffffff;
+} 
+
+/* Button */
+
+.button {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+/* Section */
+.section li {
+    list-style: none;
+}
+
+.section-title {
+    color: #212121;;
+}
+
+/* Advantage */
+
+.advantage-title {
+    color: #212121;
+}
+
+/* team */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team li {
+    list-style: none;
+}
+
+.team-title {
+    color: #212121;
+}
+
+.team-name {
+    color: #212121
+}
+
+/* footer */
+
+/* logo */
+
+.bottom {
+    
+    background-color: #2F303A;
+}
+
+.bottom li {
+    list-style: none;
+}
+
+.bottom-logo {
+    color: #FFFFFF;
+}
+
+.bottom-logo .logo {
+    color: #2196F3;
+}
+
+.bottom-street {
+    color: #FFFFFF;
+}
+
+.bottom-street:hover,
+.bottom-street:focus {
+    color: #2196F3;
+}
+
+.bottom .cont {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.bottom .cont:hover,
+.bottom .cont:focus {
+    color: #2196F3
+}
