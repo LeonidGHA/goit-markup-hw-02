@@ -1,13 +1,23 @@
 /* Цвет основного текста background: #757575; */
-/* Вторичный цвет текста background: background: #212121; */
+/* Вторичный цвет текста background: #212121; */
 /* акцент background: #2196F3; */
 /* основной цвет фона background: #FFFFFF; */
 /* вторичный цвет фона footer main  background: #2F303A; */
 /* третичный цвет фона background: #F5F4FA; */
 
+:root {
+    --primary-text-color: #757575;
+    --title-tex-color: #212121;
+    --logo-text-color: #000000;
+    --accent-color: #2196F3;
+    --primary-bcg-color: #FFFFFF;
+    --secondary-bcg-color: #2F303A;
+    --tertiary-bck-color: #F5F4FA;
+}
+
 body {
-    background-color: #ffffff;
-    color: #757575;
+    background-color: var(--primary-bcg-color);
+    color: var(--primary-text-color);
 }
 
 /* header */
@@ -15,11 +25,11 @@ body {
 /* Logo */
 
 .nav-logo {
-    color:  #000000;
+    color:  var(--logo-text-color);
 }
 
 .nav-logo .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Navigation */
@@ -27,16 +37,16 @@ body {
     list-style: none;
 }
 .site-nav .link {
-    color: #000000;
+    color: var(--logo-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Contacts */
@@ -46,12 +56,12 @@ body {
 }
 
 .site-cont a {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .site-cont .link:hover,
 .site-cont .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Main index.html */
@@ -59,17 +69,17 @@ body {
 /* Шапка */
 
 .hero {
-    background-color: #2F303A;;
+    background-color: var(--secondary-bcg-color);
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--primary-bcg-color);
 } 
 
 /* Button */
 
-.button {
-    color: #ffffff;
-    background-color: #2196F3;
+.button-studio {
+    color: var(--primary-bcg-color);
+    background-color: var();
 }
 
 /* Section */
@@ -78,19 +88,19 @@ body {
 }
 
 .section-title {
-    color: #212121;;
+    color: var(--title-tex-color);
 }
 
 /* Advantage */
 
 .advantage-title {
-    color: #212121;
+    color: var(--title-tex-color);
 }
 
 /* team */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--tertiary-bck-color);
 }
 
 .team li {
@@ -98,11 +108,11 @@ body {
 }
 
 .team-title {
-    color: #212121;
+    color: var(--title-tex-color);
 }
 
 .team-name {
-    color: #212121
+    color: var(--title-tex-color);
 }
 
 /* footer */
@@ -111,7 +121,7 @@ body {
 
 .bottom {
     
-    background-color: #2F303A;
+    background-color: var(--secondary-bcg-color);
 }
 
 .bottom li {
@@ -119,20 +129,20 @@ body {
 }
 
 .bottom-logo {
-    color: #FFFFFF;
+    color: var(--primary-bcg-color);
 }
 
 .bottom-logo .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .bottom-street {
-    color: #FFFFFF;
+    color:var(--primary-bcg-color);
 }
 
 .bottom-street:hover,
 .bottom-street:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .bottom .cont {
@@ -141,5 +151,34 @@ body {
 
 .bottom .cont:hover,
 .bottom .cont:focus {
-    color: #2196F3
+    color: var(--accent-color);
+}
+
+/* Main portfolio.html */
+
+/* Filters */
+
+.filters li {
+    list-style: none;
+}
+ 
+.filters .link.current {
+    color: var(--title-tex-color);
+    background-color: var(--tertiary-bck-color);
+} 
+
+.filters .link.current:hover,
+.filters .link.current:focus {
+    color: var(--primary-bcg-color);
+    background-color: var(--accent-color);
+}
+
+/* Projects */
+
+.project li {
+    list-style: none;
+}
+
+.project .title {
+    color: var(--title-tex-color);
 }

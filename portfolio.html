@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Портфолио</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -42,75 +40,70 @@
         </ul>
     </header>
     <!-- main -->
-    <main>
-        <section>
-            <!-- filters -->
-            <ul>
-                <li>
-                    <button type="button">Все</button>
-                </li>
-                <li>
-                    <button type="button">Веб-сайты</button>
-                </li>
-                <li>
-                    <button type="button">Приложения</button>
-                </li>
-                <li>
-                    <button type="button">Дизайн</button>
-                </li>
-                <li>
-                    <button type="button">Маркетинг</button>
-                </li>
-            </ul>
+    <main>  
+    <!-- filters -->
+        <ul class="filters">
+            <li>
+                <button type="button" class="link current">Все</button>
+            </li>
+             <li>
+                 <button type="button" class="link current">Веб-сайты</button>
+            </li>
+             <li>
+                <button type="button" class="link current">Приложения</button>
+            </li>
+            <li>                    <button type="button" class="link current">Дизайн</button>
+            </li>
+            <li>
+                <button type="button" class="link current">Маркетинг</button>
+            </li>            </ul>
             <!-- project -->
-            <ul>
-                <li>
-                    <img src="./images/ImgPortfolio1.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio2.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio3.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio4.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio5.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio6.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio7.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio8.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/ImgPortfolio9.jpg" alt="ноутбук" width="370" height="294">
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
-                </li>
-            </ul>
-        </section>
+        <ul class="project">
+            <li>
+                <img src="./images/ImgPortfolio1.jpg" alt="ноутбук" width="370" height="294">                    <h3 class="title">Технокряк</h3>
+                <p>Веб-сайт</p>
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio2.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p>Дизайн</p>                
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio3.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Ресторан Seafood</h3>
+                <p>Приложение</p>                
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio4.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Проект Prime</h3>
+                <p>Маркетинг</p>                
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio5.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Проект Boxes</h3>
+                <p>Приложение</p>
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio6.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Inspiration has no Borders</h3>
+                <p>Веб-сайт</p>
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio7.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Издание Limited Edition</h3>
+                <p>Дизайн</p>
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio8.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Проект LAB</h3>
+                <p>Маркетинг</p>
+            </li>
+            <li>
+                <img src="./images/ImgPortfolio9.jpg" alt="ноутбук" width="370" height="294">
+                <h3 class="title">Growing Business</h3>
+                <p>Приложение</p>
+            </li>
+        </ul>
     </main>
     <!-- footer -->
     <footer class="bottom">
